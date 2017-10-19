@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Client-Server Architecture</title>
+    </head>
+    <body>
+        <button onclick="onButtonClicked(event)">Click me</button>
+        <p>The client-side.js file initializes the variable <i>buttonClicks</i> when the page loads. Each time the button is clicked, <i>buttonClicks</i> is incremented. Next, the client sends a message to the server to inform it that the button was clicked. The server also has a variable for tracking the number of times the button was clicked. The server sends it's button click count in the response.</p>
+        <ol>
+            <li>Open the browser console to see the logs.</li>
+            <li>Click the button multiple times.</li>
+            <li>Do the server and client counts match?</li>
+            <li>Reload the page in the browser.</li>
+            <li>Click the button multiple times.</li>
+            <li>Do the server and client counts match?</li>
+        </ol>
+    </body>
+    <script src="./client-side.js"></script>
+</html>

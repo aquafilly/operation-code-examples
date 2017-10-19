@@ -1,0 +1,14 @@
+{
+  "name": "client-server-distinction",
+  "version": "1.0.0",
+  "description": "Simple application to distinguish between server-side and client-side javascript execution",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Larry Burris",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
