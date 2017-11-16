@@ -1,0 +1,19 @@
+{
+  "name": "client-server-db",
+  "version": "1.0.0",
+  "description": "CRUD application with application server DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Larry Burris",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "pouchdb": "^6.3.4",
+    "pouchdb-find": "^6.3.4",
+    "sqldown": "^2.1.0",
+    "sqlite3": "^3.1.13"
+  }
+}
