@@ -7,13 +7,13 @@ namespace MeetupHelper
     public class Meetup
     {
         public List<string> Organizers { get; set; }
-        public List<string> Attendees { get; set; }
+        public List<Attendee> Attendees { get; set; }
         public string Name { get; set; }
 
         public Meetup()
         {
             Organizers = new List<string>();
-            Attendees = new List<string>();
+            Attendees = new List<Attendee>();
         }
 
         public void Start()
