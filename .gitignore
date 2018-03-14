@@ -1,3 +1,9 @@
+# Visual Studio
+v15/
+obj/
+bin/
+
+
 # Logs
 logs
 *.log
